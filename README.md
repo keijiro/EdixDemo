@@ -29,7 +29,7 @@ MadMapper からプロジェクションされる Unity ロゴの位置と、実
 
 これでプリセットの Unity ロゴがプロジェクションされるようになります。
 
-次に、Output プレビュー（右側の画面）内のサーフェスを動かして、プロジェクションされるロゴと実物のログを一致させます。
+次に、Output プレビュー（右側の画面）内のサーフェスを動かして、プロジェクションされるロゴと実物のロゴを一致させます。
 
 ![adjusting](http://keijiro.github.io/EdixDemo/adjusting1.png)
 
@@ -50,6 +50,8 @@ Mac をスリープさせると、マルチモニター出力の設定がおか�
 レンタルした Mac を使用した場合、返却前に MadMapper の認証解除を行うようにしてください。メニュー “MadMapper” の “De-authorize MadMapper…” より解除できます。
 
 ![deauthorize](http://keijiro.github.io/EdixDemo/deauthorize.png)
+
+この手続きはネットワークに接続した状態でないと実行できません。ネットワーク接続が確保できる場所まで持ち帰ってから実施するようにしてください。
 
 ## トラブルシューティング
 
