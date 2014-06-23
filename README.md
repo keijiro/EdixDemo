@@ -52,3 +52,11 @@ Mac をスリープさせると、マルチモニター出力の設定がおか�
 レンタルした Mac を使用した場合、返却前に MadMapper の認証解除を行うようにしてください。メニュー “MadMapper” の “De-authorize MadMapper…” より解除できます。
 
 ![deauthorize](http://keijiro.github.io/EdixDemo/deauthorize.png)
+
+## トラブルシューティング
+
+**MadMapper で “Full Screen Mode” を選択すると、プロジェクター側の画面ではなく、MacBook 側でフルスクリーンになる。**
+
+出力先として正しいプロジェクターが選択されていない可能性があります。”Outputs” タブで “Main Projector” を選択したあと、“Output Destination” で正しい出力先がアサインされているかどうか確かめてください。
+
+![projector](http://keijiro.github.io/EdixDemo/projector.png)
