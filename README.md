@@ -1,7 +1,5 @@
 # EDIX Demo
 
-## 概要
-
 Unity のバナー看板を使った、簡単な「プロジェクションマッピング的なもの」です。
 
 ![banner](http://keijiro.github.io/EdixDemo/banner.jpg)
