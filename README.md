@@ -2,7 +2,9 @@
 
 ## 概要
 
-Unity のバナー看板を使った、簡単な「プロジェクション的なもの」です。
+Unity のバナー看板を使った、簡単な「プロジェクションマッピング的なもの」です。
+
+![banner](http://keijiro.github.io/EdixDemo/banner.jpg)
 
 Unity と MadMapper で実装してあります。
 
@@ -23,13 +25,23 @@ Unity と MadMapper で実装してあります。
 
 MadMapper からプロジェクションされる Unity ロゴの位置と、実際の看板に描かれている Unity ロゴの位置を、ぴったりと一致させる必要があります。この操作は MadMapper 上で行います。
 
-まず、Media Input タブ（左端のタブ）で “Images” の “Logo” を選択します。これでプリセットの Unity ロゴがプロジェクションされるようになります。
+まず、Media Input タブ（左端のタブ）で “Images” の “Logo” を選択します。
+
+![input](http://keijiro.github.io/EdixDemo/input.png)
+
+これでプリセットの Unity ロゴがプロジェクションされるようになります。
 
 次に、Output プレビュー（右側の画面）内のサーフェスを動かして、プロジェクションされるロゴと実物のログを一致させます。
 
+![adjusting](http://keijiro.github.io/EdixDemo/adjusting1.png)
+
 どれだけ頑張ってもピッタリ一致することはないので、ほどほどのラインで妥協しましょう。下の写真ぐらいフィットすれば十分だと思います。
 
+![adjusting](http://keijiro.github.io/EdixDemo/adjusting2.jpg)
+
 最後に、Media Input タブで “Syphon” の “Unity - Main Camera” を選択します。これで Unity の画面のプロジェクションが始まるはずです。
+
+![camera](http://keijiro.github.io/EdixDemo/camera.png)
 
 ## 終了・中断
 
@@ -38,3 +50,5 @@ Mac をスリープさせると、マルチモニター出力の設定がおか�
 ## 撤収時に気をつけること
 
 レンタルした Mac を使用した場合、返却前に MadMapper の認証解除を行うようにしてください。メニュー “MadMapper” の “De-authorize MadMapper…” より解除できます。
+
+![deauthorize](http://keijiro.github.io/EdixDemo/deauthorize.png)
